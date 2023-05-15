@@ -5,10 +5,6 @@ import { SessionProvider } from "next-auth/react";
 
 import Nav from "@components/Nav";
 
-export const metadata = {
-  title: "Promptopia",
-  description: "Discover & Share AI prompts",
-};
 
 const RootLayout = ({ children }) => {
   return (

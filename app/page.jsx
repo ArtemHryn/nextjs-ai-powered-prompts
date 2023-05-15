@@ -2,6 +2,11 @@ import { useSession } from "next-auth/react";
 
 import Feed from "@components/Feed";
 
+export const metadata = {
+  title: "Promptopia",
+  description: "Discover & Share AI prompts",
+};
+
 const Home = () => {
   return (
     <section className="w-full flex-center flex-col">
